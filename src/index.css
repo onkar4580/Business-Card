@@ -1,0 +1,152 @@
+* {
+   margin: 0;
+   padding: 0; 
+} 
+
+body {
+ /* position: relative; */
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  color:white;
+  background-color: darkslategrey;
+}
+
+.nav-div{
+  position: relative;
+  
+  /* margin-top: -100px; */
+}
+.navbar-class{
+  /* position: absolute; */
+  display: flex;
+  padding-left: 200px;
+  padding-top: 50px;
+  background-color: darkcyan;
+  width: 188%;
+  height: 100px;
+  color: white;
+  /* text-decoration: none; */
+}
+.h-class{
+  display: flex;
+  padding-left: 40px;
+}
+
+.ul--class{
+  display: inline;
+  text-decoration: none;
+  padding-left: 50px;
+  padding-top: 20px;
+  font-size: 20px;
+}
+.main-class{
+  position: absolute;
+  display: flex;
+  margin-top: 20px;
+  padding-top: 200px;
+  padding-left: 40px;
+  background-color: skyblue;
+  color: black;
+  width: 60%;
+  height: 150px;
+  border-radius: 20px 20px 20px 20px;
+  margin-left: 20px;
+  flex: 0 0 auto;         /* ADD */
+    display: flex;
+    flex-direction: column; /* ADD */
+    position: relative;
+    flex-flow: column;
+
+}
+
+.key--class{
+  position: absolute;
+  width: 25px;
+  height: 20px;
+  top: 40px;
+  background-color: white;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.heading--class{
+  position: absolute;
+  top: 50px;
+  left: 200px;
+}
+.img-class{
+  position: absolute;
+  left: 20px;
+  top: 70px;
+  width: 140px;
+  height: 120px;
+  border-radius: 10px;
+}
+
+.about-class{
+  position: absolute;
+  top: 110px;
+  left: 200px;
+  max-width: 400px;
+}
+
+
+.footer-class{
+  /* position: relative; */
+  /* position: static; */
+  display: flex;
+  padding-left: 40px;
+  margin-left: -40px;
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  color: yellow;
+  border-radius: 0px 0px 20px 20px;
+  padding-top: 20px;
+  margin-top: 70px;
+  
+}
+.fa-twitter{
+  padding-left: 110px;
+  padding-top: 20px;
+  color: blanchedalmond;
+  text-decoration: none;
+  zoom: 40px;
+}
+
+.fa-facebook{
+  padding-top: 20px;
+  padding-left: 40px;
+  color: blanchedalmond;
+  text-decoration: none;
+}
+
+.fa-instagram{
+  padding-top: 20px;
+  padding-left: 40px;
+  color: blanchedalmond;
+  text-decoration: none;
+}
+
+.fa-telegram{
+  padding-top: 20px;
+  padding-left: 40px;
+  color: blanchedalmond;
+  text-decoration: none;
+}
+
+.fa-github{
+  padding-top: 20px;
+  padding-left: 40px;
+  color: blanchedalmond;
+  text-decoration: none;
+}
+.logoimg-class{
+  /* position: absolute;s */
+  width: 70px;
+  width: 90px;
+  margin-left: -80px;
+  margin-top: -20px;
+  
+}
